@@ -1,0 +1,252 @@
+
+/* Theming and Assets */
+$primary-color: #FF4655;
+$secondary-color: #26194D;
+$background-color: white;
+$svg-background: 'https://svgshare.com/i/Kyn.svg';
+
+body{
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.bg-img{
+
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+.card-header{
+    position: absolute;
+    padding-top: 10%;
+    padding-left: 20%;
+    align-items: center;
+    font-family: "Cinzel Decorative";
+    font-weight: bold;
+    font-size: 9.2rem;
+    color: red;
+    text-shadow: 2px 2px 15px red;
+    text-align: center;
+}
+.header2{
+    text-align: center;
+    font-family: "Cinzel Decorative";
+    font-weight: bold;
+    font-size: 5.2rem;
+    color: red;
+    text-shadow: 2px 2px 15px red;
+    position: relative;
+    bottom: 0;
+    right: 12%;
+    top: 190px;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    font-family: "Cinzel Decorative";
+    font-size: 2.2rem;
+    color: red;
+    text-shadow: 2px 2px 15px red;
+    
+}
+
+.navbar{
+    outline: red;
+    padding-bottom: 0.5rem;
+}
+.nav-item{
+    padding-right: 20px;
+    font-family:"Cinzel Decorative" ;
+}
+.navbar{
+    border-color: red;
+    background-color: black ;
+    
+}
+
+.primary-button {
+    cursor: pointer;
+    font-family:"Cinzel Decorative" ;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 0.20rem;
+    
+    border: 1px solid red;
+    padding: 0.9rem  2rem;
+    background: url(https://svgshare.com/i/Kyn.svg);
+    background-size: 130%;
+    background-position: 500%;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out;
+    transition-property: background-position, border ,color ;
+    position: absolute;
+    top : 80%;
+    left:45%;
+    color: var(--v-white);
+    background-color: #26194D;
+    width: 200px;
+    word-spacing: 0.18rem;
+    outline: 5px solid;  
+    color: red;
+    box-shadow: 2px 2px 15px red;
+   
+    
+    
+}
+.primary-button:hover{
+    border: 1px solid red;
+    color: red;
+    background-position: 50%;
+}
+.charachter{
+    position: absolute ;
+    top: 160%;
+
+    background-color: #fff;
+    background:cross-fade(10%)
+
+}
+.img{ 
+    position: absolute;
+    top: 160%;
+    left: 58%;
+    width: 40%;
+    image-orientation: ;
+
+}
+.lucian{
+    font-family: "Cinzel Decorative" ;
+    font-weight: bold;
+    font-size: 4rem;
+    text-shadow: 1px 1px 9px;
+    
+    
+}
+.img2{
+    position: absolute;
+    top: 220%;
+    left: 5%;
+    width: 40%;
+    image-orientation: ;
+    background-color: black;
+    
+}
+.charachter2{
+    position: absolute ;
+    top: 220%;
+    left: 47%;
+    background-color:#fff;
+    background:cross-fade(10%);
+}
+.Serena{
+    font-family: "Cinzel Decorative" ;
+    font-weight: bold;
+    font-size: 3.8rem;
+    text-shadow: 1px 1px 9px;
+    
+    
+}
+.png{
+    position: absolute;
+    top: -57%;
+    left: -15%;
+    width: 40%;
+    opacity: 75%;
+ 
+}
+.png2{
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    width: 40%;
+    opacity: 75%;
+
+}
+.borderpng{
+    position: absolute;
+    top: -28%;
+    left: 94%;
+    width: 92.100%;
+    z-index: 1;
+    opacity: 100%;
+    height: 180%;
+ 
+}
+
+
+.border2{
+    position: absolute;
+    top: 210%;
+    left:1%;
+    width: 47%;
+    height: 68%;
+}
+.char{
+    position: absolute;
+    top: 115%;
+    font-family: "Cinzel Decorative";
+    font-weight: bolder;
+    font-size: 8rem;
+    padding-left: 17%;
+}
+.Map{
+    position: absolute;
+    top: 290%;
+    left: 25%;
+    font-family: "Cinzel Decorative";
+    font-weight: bolder;
+    font-size: 8rem;
+    padding-left: 17%;
+}
+.Aplay{
+    color: red;
+    text-decoration: none;
+}
+.maps{
+    position: absolute ;
+    top: 320%;
+    left: ;
+    background-color:#fff;
+    background:cross-fade(10%);
+}
+.Ohio{
+    font-family: "Cinzel Decorative" ;
+    font-weight: bold;
+    font-size: 3.8rem;
+    text-shadow: 1px 1px 9px;
+}
+.imgm{
+  position: absolute;
+    top: 322%;
+    left: 58%;
+    width: 40%;
+
+    image-orientation: ;
+}
+.borderpng__2{
+    position: absolute;
+    top: -19%;
+    left:94%;
+    width: 93%;
+    height: 140%;
+
+}
+
+
+#footer{
+    text-align: center;
+    background-color: white;
+    position: absolute ;
+    top: 400%;
+    left: 47%;
+    background:cross-fade(10%);
+    color: black;
+  }
+
+ 
+  
+  

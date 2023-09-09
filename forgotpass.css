@@ -1,0 +1,127 @@
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;900&display=swap');
+body{
+    background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cinzel Decorative";
+    
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+.title{
+    color: #Fff;
+    text-shadow: 5px 5px 10px black;
+    font-size: 50px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    
+}
+.Reset-pass{
+    color: #fff;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.form{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.option{
+    color: black;
+}
+.input-form{
+    color: #000;
+    text-shadow: 2px 2px 5px white;
+    align-items: center;
+}
+.input{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+label,
+.button-box {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+label {
+    margin: 8px 0;
+}
+
+input {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 30px;
+    padding: 0 8px;
+    font: 400 18px ;
+}
+
+select {
+    width: 95%;
+    height: 48px;
+    margin-bottom: 30px;
+    padding: 0 8px;
+    font: 400 18px;
+}
+.primary-button {
+    cursor: pointer;
+    font-family:"Cinzel Decorative" ;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 0.20rem;
+    
+    border: 1px solid red;
+    padding: 1rem  1rem ;
+    background: url(https://svgshare.com/i/Kyn.svg);
+    background-size: 130%;
+    background-position: 500%;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out;
+    transition-property: background-position, border ,color ;
+    position: absolute;
+    top : 80%;
+    left:42%;
+    color: var(--v-white);
+    background-color: #fff;
+    width: 250px; 
+    word-spacing: 0.5rem;
+    outline: 5px solid;  
+    
+   
+    
+    
+}
+.primary-button:hover{
+    border: 1px solid red;
+    color: #fff;
+    background-position: 50%;
+}
+.icon{
+    color: #fff;
+    
+}
+
